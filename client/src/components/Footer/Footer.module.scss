@@ -1,0 +1,143 @@
+.footer {
+    max-width: 1920px;
+    width: 100%;
+    height: 630px;
+    background-color: rgb(196, 246, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoPannel {
+    max-width: 1920px;
+    width: 100%;
+    height: 420px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns,
+.footerMenu,
+.footerLogo,
+.thirdColumnBox,
+.secondColumnBox,
+.fourthColumnBox,
+.schedule,
+.adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.columns {
+    height: 296px;
+    width: 100%;
+    max-width: 390px;
+    font-family: sans-serif;
+}
+
+.columns a {
+    text-decoration: none;
+    color: #2B7BC6;
+    font-size: 14px;
+}
+
+.footerMenu {
+    height: 240px;
+}
+
+.footerLogo {
+    height: 24px;
+}
+
+.secondColumnBox {
+    height: 200px;
+}
+
+.thirdColumnBox {
+    height: 208px;
+}
+
+.fourthColumnBox {
+    height: 100%;
+}
+
+.button {
+    max-width: 178px;
+    width: 100%;
+    height: 36px;
+    border: 1px #1061AB solid;
+    color: #1061AB;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialNetworks {
+    max-width: 147px;
+    width: 100%;
+    height: 28px;
+    background-color: rgb(254, 222, 222);
+}
+
+.schedule,
+.adress {
+    max-width: 149px;
+    width: 100%;
+    height: 90px;
+    font-size: 14px;
+}
+
+.thirdColumnBox p {
+    font-size: 21px;
+}
+
+.schedule p {
+    font-size: 14px;
+}
+
+.adress {
+    max-width: 249px;
+}
+
+.rateTheStore {
+    max-width: 160px;
+    width: 100%;
+    height: 118px;
+    background-color: #a5d4ff;
+}
+
+.disclaimer {
+    max-width: 1920px;
+    width: 100%;
+    height: 210px;
+    background-color: #F3F9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1540px;
+    width: 100%;
+    height: 120px; 
+}
+
+.item p {
+    font-family: sans-serif;
+    line-height: 2;
+    color: #99A3A9;
+}
+
+.item a,
+.adress a {
+    color: #2B7BC6;
+    text-decoration: none;
+}

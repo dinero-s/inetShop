@@ -1,0 +1,127 @@
+.header {
+    padding-top: 1px;
+    max-width: 1920px;
+    width: 100%;
+    height: 370px;
+    background-color: #E1EEFB;
+}
+
+.logoBar {
+    margin: 0 auto;
+    margin-top: 46px;
+    max-width: 1540px;
+    width: 100%;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phoneNumber {
+    display: flex;
+    max-width: 322px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phoneNumber p {
+    font-size: 21px;
+}
+
+.location p,
+.phoneNumber a,
+.menu a {
+    font-size: 14px;
+    color: #2B7BC6;
+}
+
+TODO //Разобраться с text-decoration: dotted - не работает
+
+// .phoneNumber a {
+//     text-decoration: dotted;
+// }
+
+TODO //Разобраться с text-decoration: none
+
+.menu a,
+.phoneNumber a {
+    text-decoration: none;
+}
+
+.menu {
+    max-width: 426px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.navBar {
+    margin: 0 auto;
+    margin-top: 26px;
+    max-width: 1540px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.catalogWithHumburger,
+.stocks,
+.brands,
+.input,
+.userArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.catalogWithHumburger {
+    max-width: 296px;
+    background-color: #004C93;
+}
+
+.stocks {
+    max-width: 121px;
+    background-color: #1061AB;
+}
+
+.brands {
+    max-width: 137px;
+    background-color: #2B7BC6;
+}
+
+.input {
+    max-width: 746px;
+    width: 100%;
+    background-color: #fff;
+}
+
+//как корректно менять размеры у input?
+
+.input input {
+    width: 700px;
+    height: 60px;
+    font-size: 16px;
+    padding: 1em;
+    border: none;
+    outline: none;
+}
+
+.search {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(247, 247, 188);
+}
+
+.userArea {
+    max-width: 240px;
+    background-color: #F1F8FF;
+}
+
